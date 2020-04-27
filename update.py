@@ -43,7 +43,7 @@ if hello == "y":
     os.system("cd /data/data/com.termux/files/home && rm -rf DrivetoWeb")
     os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Rahilkaxi/DrivetoWeb.git")
     os.system("clear")
-    os.system("cd /data/data/com.termux/files/home")
+    os.system("cd /$HOME")
     os.system("ls")
     # os.system()
     # os.system()
