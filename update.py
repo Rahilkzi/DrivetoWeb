@@ -11,6 +11,6 @@ if hello == "y":
     os.system("pkg install git")
     os.system("cd /data/data/com.termux/files/home && rm -rf DrivetoWeb")
     os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Rahilkaxi/DrivetoWeb.git")
-    os.system("cd /data/data/com.termux/files/home && DrivetoWeb")
-    os.system("ls")
+    os.system("clear")
+    
     
