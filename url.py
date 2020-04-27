@@ -1,12 +1,17 @@
 #https://drv.tw/~[username]/[drive]/[path]
+#copyright
 
 url ="https://drv.tw/~"
 
-email = input("Type Your Email > ")   
+email = input("Type Your Email: ")   
 
 drive ="gd"
 
-path = input("Type Your File Path > ")
+path = input("Type Your File Path: ")
 
-print(url + email + drive + path)
+get = (url + email + "/" + drive + "/" + path)
+
+print ("♨️this is your URL▶️ " + get)
+
+
 
