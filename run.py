@@ -42,15 +42,29 @@ print(p2)
 
 
 
+
+import os
+
+
+red= '\033[91m'
+orange= '\33[38;5;208m'
+green= '\033[92m'
+cyan= '\033[36m'
+bold= '\033[1m'
+end= '\033[0m'
+
+
+
 url ="https://drv.tw/~"
 
-email = input("Type Your Email: ")   
+email = input(("{2}Type Your Email: ").format(orange, green, bold, end, cyan, red))
 
 drive ="gd"
 
-path = input("Type Your File Path: ")
+path = input(("{2}Type Your File Path: ").format(orange, green, bold, end, cyan, red))
 
 get = (url + email + "/" + drive + "/" + path)
 
-print ("♨️this is your URL▶️ " + get)
+print('\n')
 
+print(('{5}This is your URL: {4}'+ get).format(orange, green, bold, end, cyan, red))
