@@ -3,13 +3,14 @@ import os
  
 
 
-#Command to execute 
-#Using Windows OS command 
-  cmd = 'apt install git' 
- 
-#Using os.system() method 
-  os.system (cmd) 
- os.system ('mkdir' + 'test 2') 
-#os.system()
-#os.system()
-#os.system()
+ hm = input("[?] Do you want to update? (y/n): ")
+        print("================================")
+        if hm == "y":
+            print("========================================================")
+            print("[+] Please wait...")
+            print("========================================================")
+            os.system("pkg install git")
+            os.system("cd /data/data/com.termux/files/home && rm -rf drivetoWeb")
+            os.system("/data/data/com.termux/files/home && https://github.com/Rahilkaxi/DrivetoWeb.git")
+            os.system("cd DrivetoWeb")
+            os.system("python run.py")
