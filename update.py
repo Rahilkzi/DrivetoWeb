@@ -18,7 +18,7 @@ p1='''{5}
          █▀███████▀█
          █─█▀▀▀▀▀█─█
             ▀▀─▀▀
- *****    Mob-Droid   *****
+ *****    DrivetoWeb   *****
  '''.format(orange, green, bold, end, cyan, red)
 print(p1) 
 
@@ -43,8 +43,8 @@ if hello == "y":
     os.system("cd /data/data/com.termux/files/home && rm -rf DrivetoWeb")
     os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Rahilkaxi/DrivetoWeb.git")
     os.system("clear")
+    sys.exit()
     os.system("cd /$HOME")
-    os.system("ls")
     # os.system()
     # os.system()
     # os.system()
