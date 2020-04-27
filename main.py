@@ -3,9 +3,9 @@ import os
  
 
 
- hm = input("[?] Do you want to update? (y/n): ")
+ hello = input("[?] Do you want to update? (y/n): ")
         print("================================")
-        if hm == "y":
+        if hello == "y":
             print("========================================================")
             print("[+] Please wait...")
             print("========================================================")
