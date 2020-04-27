@@ -1,6 +1,7 @@
 import os
 from time import sleep
 from sys import exit
+import sys
 
 
 red= '\033[91m'
@@ -44,7 +45,7 @@ if hello == "y":
     os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Rahilkaxi/DrivetoWeb.git")
     os.system("clear")
     sys.exit()
-    os.system("cd /$HOME")
+    os.system("cd $HOME")
     # os.system()
     # os.system()
     # os.system()
