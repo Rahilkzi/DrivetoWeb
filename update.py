@@ -11,7 +11,6 @@ cyan= '\033[36m'
 bold= '\033[1m'
 end= '\033[0m'
 
-def logo()
 os.system('clear')
 p1='''{5}
            ▀▄   ▄▀
@@ -44,8 +43,6 @@ if hello == "y":
     os.system("cd /data/data/com.termux/files/home && rm -rf DrivetoWeb")
     os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Rahilkaxi/DrivetoWeb.git")
     os.system("clear")
-    sys.exit()
-    os.system("cd")
     # os.system()
     # os.system()
     # os.system()
