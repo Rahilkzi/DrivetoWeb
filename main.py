@@ -2,8 +2,7 @@
 import os 
  
 
-
- hello = input("[?] Do you want to update? (y/n): ")
+hello = input("[?] Do you want to update? (y/n): ")
         print("================================")
         if hello == "y":
             print("========================================================")
