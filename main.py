@@ -5,7 +5,7 @@ import os
 
 #Command to execute 
 #Using Windows OS command 
-  cmd = 'apt install git' 
+  cmd = 'apt' , 'install' ,'git' 
  
 #Using os.system() method 
   os.system (cmd) 
