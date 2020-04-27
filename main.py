@@ -10,6 +10,6 @@ if hello == "y":
     print("========================================================")
     os.system("pkg install git")
     os.system("cd /data/data/com.termux/files/home && rm -rf drivetoWeb")
-    os.system("/data/data/com.termux/files/home && https://github.com/Rahilkaxi/DrivetoWeb.git")
+    os.system("cd /data/data/com.termux/files/home && https://github.com/Rahilkaxi/DrivetoWeb.git")
     os.system("cd DrivetoWeb")
     os.system("python run.py")
