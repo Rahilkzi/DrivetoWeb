@@ -1,4 +1,5 @@
 import os
+from time import sleep
 
 
 red= '\033[91m'
@@ -39,7 +40,15 @@ if hello == "y":
     print("========================================================")
     os.system("pkg install git")
     os.system("cd /data/data/com.termux/files/home && rm -rf DrivetoWeb")
+    sleep(2)
     os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Rahilkaxi/DrivetoWeb.git")
     os.system("clear")
+    os.system("cd /data/data/com.termux/files/home")
+    sleep(2)
+    os.system("cd DrivetoWeb")
+    os.system("ls")
+    # os.system()
+    # os.system()
+    # os.system()
     
     
